@@ -1,0 +1,89 @@
+# -----------------------------
+# GENERAL
+# -----------------------------
+*.log
+*.lock
+*.tmp
+*.swp
+*.DS_Store
+
+# IDE SETTINGS
+.idea/
+.vscode/
+*.iml
+
+# -----------------------------
+# FLUTTER / DART
+# -----------------------------
+.dart_tool/
+.packages
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+
+# Generated docs
+**/doc/api/
+
+# -----------------------------
+# FLUTTER BUILD OUTPUT
+# -----------------------------
+build/
+**/build/
+*.module
+
+# -----------------------------
+# ANDROID
+# -----------------------------
+android/.gradle/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/gradlew
+android/gradlew.bat
+android/captures/
+
+# -----------------------------
+# iOS / XCODE
+# -----------------------------
+
+# Xcode build output
+ios/build/
+**/ios/build/
+
+# Flutter iOS frameworks (generated)
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/engine/
+
+# CocoaPods (MUST ignore to avoid CI issues)
+ios/Pods/
+ios/Podfile.lock
+ios/.symlinks/
+
+# Generated files
+ios/Runner/GeneratedPluginRegistrant.*
+ios/Runner/GeneratedPluginRegistrant.swift
+ios/Runner/Assets.xcassets/LaunchImage.imageset/
+
+# SwiftPM
+ios/.swiftpm/
+ios/Package.resolved
+
+# -----------------------------
+# WEB
+# -----------------------------
+lib/generated_plugin_registrant.dart
+
+# -----------------------------
+# SYMBOLS & OBFUSCATION
+# -----------------------------
+app.*.map.json
+app.*.symbols
+
+# -----------------------------
+# EXCEPTIONS (keep)
+# -----------------------------
+!.vscode/launch.json
